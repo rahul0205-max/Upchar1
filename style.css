@@ -1,0 +1,149 @@
+/* Hero Graphic Illustration */
+.hero-graphic {
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.chat-bubble {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 8px 12px;
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.chat-bubble span {
+  width: 6px;
+  height: 6px;
+  background-color: #2b6fa8;
+  border-radius: 50%;
+}
+
+.plant-pot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leaves {
+  width: 20px;
+  height: 20px;
+  background-color: #38bdf8;
+  border-radius: 20px 0 20px 0;
+  margin-bottom: -2px;
+}
+
+.pot {
+  width: 36px;
+  height: 22px;
+  background-color: #2b6fa8;
+  border-radius: 0 0 12px 12px;
+}
+
+/* About Section Styles */
+.about-section {
+  background-color: #f8fafc;
+  border: 1px solid #eef4f8;
+  border-radius: 16px;
+  padding: 18px 14px;
+  margin-top: 8px;
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.about-leaf {
+  color: #0d8a8a;
+  font-size: 16px;
+}
+
+.about-header h3 {
+  font-size: 16px;
+  font-weight: 800;
+  color: #112a38;
+}
+
+.about-desc {
+  font-size: 11px;
+  color: #698096;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.about-sub {
+  font-size: 11px;
+  color: #94a3b8;
+  margin-bottom: 16px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px 8px;
+}
+
+.about-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-icon-box {
+  width: 32px;
+  height: 32px;
+  background-color: #e0f2fe;
+  color: #0284c7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.about-item h4 {
+  font-size: 11px;
+  font-weight: 700;
+  color: #112a38;
+  margin-bottom: 2px;
+}
+
+.about-item p {
+  font-size: 9px;
+  color: #698096;
+  line-height: 1.2;
+}
+
+/* Bottom Navigation Bar */
+.bottom-nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: #ffffff;
+  border-top: 1px solid #eef4f8;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-btn {
+  font-size: 18px;
+  color: #0d8a8a;
+}
